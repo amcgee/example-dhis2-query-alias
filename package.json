@@ -1,0 +1,16 @@
+{
+  "name": "test-query-alias",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "testQueryAliasing.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node --esm ./src/testQueryAliasing.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
